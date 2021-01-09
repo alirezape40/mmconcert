@@ -1,0 +1,387 @@
+body {
+    margin-top: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'yekan';
+    font-style: normal;
+    font-weight: 100;
+    src: url(../../../../../font/yekan.eot?#) format('embedded-opentype'), url(../../../../../font/yekan.woff) format('woff'), url(../../../../../font/yekan.ttf) format('truetype');
+}
+
+.font-y {
+    font-family: 'yekan';
+}
+
+.d-rtl {
+    direction: rtl;
+}
+
+
+/* content */
+
+.price-sec {
+    position: relative;
+    right: 0;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(151, 151, 151);
+}
+
+.click-ticket-sec {
+    position: relative;
+    height: 100%;
+    width: 75%;
+}
+
+.div-price {
+    display: block;
+    text-align: center;
+    background-color: gray;
+    padding: 30px;
+    width: 100%;
+    height: 15%;
+    color: white;
+    border-bottom: 4px solid rgb(161, 24, 24);
+}
+
+.name-concert {
+    background-color: rgb(151, 151, 151);
+    border-bottom: 4px solid rgb(161, 24, 24);
+    text-align: right;
+    padding: 15px 15px 20px 0;
+    width: 100%;
+    height: 15%;
+    color: white;
+}
+
+.subtitle-name-concert {
+    color: rgb(161, 24, 24);
+    font-weight: 800;
+}
+
+.div-allchair-concert {
+    width: 100%;
+    height: 85%;
+    background-color: transparent;
+    position: relative;
+}
+
+.allchair-concert {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: scroll;
+    position: relative;
+}
+
+
+/* 
+#ticket1 {
+    display: flex;
+} */
+
+#nambera1,
+#nambera2,
+#nambera3,
+#nambera4,
+#nambera5,
+#nambera6,
+#nambera7,
+#namberb1,
+#namberb2,
+#namberb3,
+#namberb4,
+#namberb5,
+#namberc1,
+#namberc2,
+#namberc3 {
+    text-align: center;
+    background-color: rgb(151, 151, 151);
+    width: 100%;
+    height: 22px;
+    cursor: pointer;
+}
+
+.col-1 {
+    padding: 5px !important;
+}
+
+.row {
+    width: 600px;
+}
+
+.front-chair {
+    margin-top: 200px;
+}
+
+.sec-chair-1,
+.sec-chair-2 {
+    padding: 40px;
+    padding-bottom: 20px !important;
+}
+
+.sec-chair-01,
+.sec-chair-02 {
+    padding: 20px 40px;
+}
+
+.sec-chair-001,
+.sec-chair-002 {
+    padding: 40px;
+    padding-top: 20px !important;
+    padding-bottom: 200px !important;
+}
+
+.sec-chair-1,
+.sec-chair-001,
+.sec-chair-01 {
+    margin-left: 40px;
+}
+
+.name-sec-chair,
+.name-sec-chair0,
+.name-sec-chair00 {
+    text-align: center;
+}
+
+.name-sec-chair {
+    padding-top: 120px;
+}
+
+.name-sec-chair0 {
+    padding-top: 80px;
+}
+
+.name-sec-chair00 {
+    padding-top: 50px;
+}
+
+.title-name-sec {
+    color: white;
+}
+
+.back-page-buy-ticket {
+    width: 100%;
+}
+
+.back-page,
+.buy-ticket {
+    padding-top: 20PX;
+    width: 100%;
+    text-align: center;
+}
+
+.link-back {
+    width: 100%;
+    color: #000;
+    font-weight: 700;
+}
+
+.link-back:hover {
+    color: #000;
+}
+
+.delete {
+    display: none;
+}
+
+.btn-back {
+    width: 80%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 6px 0;
+}
+
+.btn-back:focus,
+.btn-buy-ticket:focus {
+    outline: none;
+}
+
+.btn-buy-ticket {
+    width: 80%;
+    border: 2px solid rgb(122, 0, 0);
+    background-color: rgb(189, 3, 3);
+    padding: 6px 0;
+}
+
+.link-buy-ticket {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.link-buy-ticket:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+/* section buy ticket */
+
+#all-ticket-buyp {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.ticket-concert {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 150px;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    overflow-y: auto;
+}
+
+.div-buy-ticket {
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: 5px auto;
+}
+
+.ul1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(189, 3, 3);
+    padding: 6px 4px;
+}
+
+.li1,
+.li01 {
+    font-family: 'yekan';
+    color: rgb(255, 255, 255);
+    direction: rtl !important;
+}
+
+.span01 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.span01,
+.span1 {
+    padding: 0 5px;
+    font-weight: 700;
+}
+
+.ul2,
+.ul3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px 4px;
+}
+
+.ul3 {
+    padding-bottom: 20px;
+}
+
+.li2,
+.li02,
+.li03,
+.li3 {
+    font-family: 'yekan';
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.btn-ticket {
+    width: 100%;
+    background-color: rgb(110, 110, 110);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: all 0.3s;
+    padding: 6px;
+    font-family: 'yekan';
+}
+
+.btn-ticket:focus {
+    outline: none;
+}
+
+.btn-ticket:hover {
+    background-color: rgb(65, 63, 63);
+}
+
+.nonedis {
+    display: none;
+}
+
+@media screen and ( max-width:991.98px) {
+    .text-price01,
+    .text-price02 {
+        font-size: 15px;
+    }
+    .div-price {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .li1,
+    .li01,
+    .li2,
+    .li02,
+    .li03,
+    .li3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and ( max-width:767.98px) {
+    .text-price01,
+    .text-price02 {
+        font-size: 17px;
+    }
+    .ul1,
+    .ul2,
+    .ul3 {
+        display: block;
+    }
+    .li1,
+    .li01,
+    .li2,
+    .li02,
+    .li03,
+    .li3 {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .title-name-concert {
+        font-size: 19px;
+    }
+    .subtitle-name-concert {
+        font-size: 15px;
+    }
+    .row {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .price-sec {
+        width: 35%;
+    }
+    .click-ticket-sec {
+        width: 65%;
+    }
+    .ticket-concert {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    .div-price,
+    .name-concert {
+        padding-top: 5 !important;
+    }
+    .title-name-concert {
+        font-size: 15px;
+    }
+    .subtitle-name-concert,
+    .link-buy-ticket,
+    .link-back {
+        font-size: 12px;
+    }
+}
